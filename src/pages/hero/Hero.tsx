@@ -13,10 +13,10 @@ const Hero = () => {
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between w-[75%]">
                     {/* Left Side */}
                     <div className="md:w-1/2 space-y-6">
-                        <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+                        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 py-6">
                             Create a Flourishing Business in Any Economy
                         </h1>
-                        <p className="text-gray-700 text-lg">
+                        <p className="text-gray-700 text-lg py-4">
                             <strong>Growing business revenue</strong> is challenging. We simplify the
                             process, making it <strong>more predictable, less stressful, and even enjoyable!</strong>
                         </p>
@@ -32,7 +32,7 @@ const Hero = () => {
                     </div>
 
                     {/* Right Side */}
-                    <div className="md:w-1/2 mt-8 md:mt-0 relative h-72 ">
+                    <div className="md:w-[45%] mt-8 md:mt-0 relative w-600px">
                         <img
                             src={hero}
                             alt="Business Building"

@@ -1,25 +1,25 @@
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
-import CEO from "../../images/ceo-bg.png";
+import CEO from "../../images/ceo-bg.png"; // Replace with actual image path
 import Services from "./Services";
 
 const testimonials = [
     {
         id: 1,
+        name: "Lubin Joseph",
+        role: "Founder & CEO, LeadSoko",
+        company: "Co-Founder, 21lab.co",
+        quote:
+            "In 2020, we wrote about $66K worth of business as a result of LeadSoko’s digital efforts. In 2021, we're already at $185K. We’ve seen such incredible growth.",
+        image: CEO,
+    },
+    {
+        id: 2,
         name: "Jane Doe",
         role: "Chief Marketing Officer",
         company: "Tech Innovators Inc.",
         quote:
             "LeadSoko has transformed our marketing strategy. We've seen a 50% increase in lead generation within the first quarter.",
-        image: CEO,
-    },
-    {
-        id: 2,
-        name: "John Smith",
-        role: "Head of Sales",
-        company: "SalesForce Solutions",
-        quote:
-            "Thanks to LeadSoko, our sales team is more efficient and effective. Our sales have increased by 30% in just six months.",
         image: CEO,
     },
 ];
@@ -41,21 +41,30 @@ export default function Stories() {
 
     return (
         <>
-            <section className="bg-black text-white py-12 px-6 rounded-xl relative max-w-6xl mx-auto">
-                <div className="flex flex-col md:flex-row items-center gap-8">
-                    {/* Image */}
-                    <img
-                        src={testimonials[currentIndex].image}
-                        alt={testimonials[currentIndex].name}
-                        className="w-52 h-60 rounded-lg object-cover -mt-44"
-                    />
+            <section className="bg-black text-white py-12 px-6 rounded-xl relative mx-auto w-[95%] max-w-7xl shadow-lg">
+                <div className="flex flex-col md:flex-row items-center justify-around gap-8">
+                    {/* Left Side - Image */}
+                    <div className="relative">
+                        <img
+                            src={testimonials[currentIndex].image}
+                            alt={testimonials[currentIndex].name}
+                            className="w-52 h-60 object-cover rounded-lg -mt-45"
+                        />
+                        {/* Decorative Wreath */}
+                        <div className="absolute top-1/2 left-0 w-full h-full -z-10 opacity-20">
+                            🌿🌿 {/* Replace with SVG or background image */}
 
-                    {/* Testimonial Content */}
-                    <div className="flex-1 text-center md:text-left">
-                        <p className="text-lg italic">"{testimonials[currentIndex].quote}"</p>
-                        <p className="mt-4 font-bold">{testimonials[currentIndex].name}</p>
-                        <p className="text-gray-400">{testimonials[currentIndex].role}</p>
-                        <p className="text-gray-400">{testimonials[currentIndex].company}</p>
+                        </div>
+                    </div>
+
+                    {/* Right Side - Quote & Details */}
+                    <div className="flex-1 text-center md:text-left max-w-lg">
+                        <p className="text-xl italic leading-relaxed">"{testimonials[currentIndex].quote}"</p>
+                        <div className="mt-4">
+                            <p className="font-bold text-lg">{testimonials[currentIndex].name}</p>
+                            <p className="text-gray-400">{testimonials[currentIndex].role}</p>
+                            <p className="text-gray-400">{testimonials[currentIndex].company}</p>
+                        </div>
 
                         {/* View All Success Stories Button */}
                         <button className="mt-6 flex items-center gap-2 px-6 py-3 border border-white text-white rounded-full hover:bg-white hover:text-black transition">
@@ -65,24 +74,35 @@ export default function Stories() {
                     </div>
                 </div>
 
-                {/* Arrows Positioned to the Right */}
+                {/* Navigation Controls */}
                 <div className="absolute bottom-6 right-6 flex items-center gap-4">
                     <button
                         onClick={handlePrev}
-                        className="p-3 bg-gray-800 rounded-full hover:bg-gray-700"
+                        className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition"
                     >
                         <ArrowLeft className="text-white" />
                     </button>
                     <button
                         onClick={handleNext}
-                        className="p-3 bg-gray-800 rounded-full hover:bg-gray-700"
+                        className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition"
                     >
                         <ArrowRight className="text-white" />
                     </button>
                 </div>
+
+                {/* Dots Indicator */}
+                <div className="absolute bottom-6 left-6 flex gap-2">
+                    {testimonials.map((_, index) => (
+                        <span
+                            key={index}
+                            className={`w-3 h-3 rounded-full ${currentIndex === index ? "bg-white" : "bg-gray-500"
+                                }`}
+                        ></span>
+                    ))}
+                </div>
             </section>
+
             <Services />
         </>
-
     );
 }
