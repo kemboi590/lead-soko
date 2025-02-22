@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+/* --color-base-100: #254A47; */
+@plugin "daisyui/theme" {
+}
+

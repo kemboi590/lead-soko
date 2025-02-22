@@ -1,0 +1,34 @@
+.dotted-background {
+    background-color: #fff8f083; /* A very light grey background */
+    background-image: radial-gradient(circle, #ddd 1px, transparent 1px); /* Lighter dots, smaller size */
+    background-size: 22px 22px; /* Smaller pattern repetition */
+}
+
+/* @keyframes swing {
+    0% { transform: rotate(0deg) translateY(0); }
+    25% { transform: rotate(10deg) translateY(-10px); }
+    50% { transform: rotate(0deg) translateY(0); }
+    75% { transform: rotate(-10deg) translateY(10px); }
+    100% { transform: rotate(0deg) translateY(0); }
+} */
+
+.animate-swing {
+    display: inline-block;
+    animation: swing 1s ease-in-out infinite;
+}
+
+
+.animate-swing {
+    animation: swing 4s ease-in-out infinite alternate;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+
