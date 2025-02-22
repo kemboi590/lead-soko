@@ -15,6 +15,8 @@ const Navbar = () => {
                 {/* Logo */}
                 <Link to="/" className="flex items-center">
                     <img src={icon} alt="Miro Clone" className="h-14 w-auto" />
+                    {/* Leadsoko */}
+                    <h2 className="text-2xl font-semibold text-gray-800 ml-2">Leadsoko </h2>
                 </Link>
 
                 {/* Desktop Menu */}

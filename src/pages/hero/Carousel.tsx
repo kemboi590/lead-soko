@@ -9,22 +9,19 @@ export default function Carousel() {
     const scrollToSlide = (index: number) => {
         setCurrentIndex(index);
         scrollRef.current?.scrollTo({
-            left: index * scrollRef.current.clientWidth * 0.75, 
+            left: index * scrollRef.current.clientWidth * 0.75,
             behavior: "smooth",
         });
     };
 
     return (
         <>
-
-
             <div className="relative w-full max-w-6xl mx-auto py-6 overflow-x-hidden">
                 {/* Carousel Wrapper */}
                 <div
                     ref={scrollRef}
-                    className="flex gap-4 overflow-x-auto scroll-smooth scrollbar-hide"
-                >
-                    {carouselData.map((item, index) => (
+                    className="flex gap-4 overflow-x-auto scroll-smooth scrollbar-hide">
+                    {carouselData.map((item) => (
                         <div
                             key={item.id}
                             className="flex-shrink-0 w-3/4 lg:w-1/3 bg-white rounded-xl shadow-lg overflow-hidden"

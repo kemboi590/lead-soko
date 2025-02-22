@@ -1,6 +1,5 @@
-import React from "react";
-import SuccesStoryIMG from "../../images/success-stories.jpg"
-import videoRPT from "../../images/hero.webp"
+import SuccesStoryIMG from "../../images/success-stories.jpg";
+import videoRPT from "../../images/hero.webp";
 
 export default function CoachingProgram() {
     const successStories = [
@@ -31,12 +30,12 @@ export default function CoachingProgram() {
     ];
 
     return (
-        <section className="bg-black text-white p-8 rounded-lg max-w-5xl mx-auto">
+        <section className="bg-gray-900 text-white p-8 rounded-lg max-w-7xl mx-auto shadow-lg">
             {/* Main Section */}
             <div className="flex flex-col md:flex-row items-center justify-between">
                 {/* Left Side - Text & CTA */}
                 <div className="max-w-lg">
-                    <h2 className="text-3xl font-semibold">Join Our Coaching Program</h2>
+                    <h2 className="text-4xl font-semibold">Join Our Coaching Program</h2>
                     <p className="mt-2 text-gray-400">
                         This is your time to be heard and understood — to talk about the sales, marketing, or other
                         business challenges that have been keeping you up at night.
@@ -54,14 +53,14 @@ export default function CoachingProgram() {
                     <img
                         src={videoRPT}
                         alt="Coaching Video"
-                        className="w-80 h-64 object-cover rounded-lg"
+                        className="w-80 h-64 object-cover rounded-lg shadow-md"
                     />
                     <button className="absolute inset-0 flex items-center justify-center">
-                        <span className="w-12 h-12 bg-white/20 backdrop-blur-lg rounded-full flex items-center justify-center">
+                        <span className="w-12 h-12 bg-black/60 backdrop-blur-lg rounded-full flex items-center justify-center">
                             ▶
                         </span>
                     </button>
-                    <p className="absolute -top-6 left-8 italic text-sm">Don’t skip the first step.</p>
+                    <p className="absolute -top-6 left-8 italic text-sm text-gray-400">Don’t skip the first step.</p>
                 </div>
             </div>
 
@@ -70,7 +69,7 @@ export default function CoachingProgram() {
                 <h3 className="text-lg font-semibold mb-4">SUCCESS STORIES</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {successStories.map((story) => (
-                        <div key={story.id} className="bg-gray-900 rounded-lg p-4">
+                        <div key={story.id} className="bg-gray-800 rounded-lg p-4 shadow-sm">
                             <img src={story.image} alt={story.name} className="w-full h-28 object-cover rounded-md" />
                             <h4 className="mt-2 font-semibold">{story.name}</h4>
                             <p className="text-gray-400 text-sm">{story.quote}</p>

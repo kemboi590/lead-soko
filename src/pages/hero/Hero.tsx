@@ -1,5 +1,4 @@
-import { FaArrowRight, FaPlay } from "react-icons/fa";
-import './Hero.css';
+import { FaArrowRight } from "react-icons/fa";
 import Navbar from '../../components/navbar/Navbar';
 // import heroImage from "../../images/hero-potrait.jpg";
 import hero from "../../images/hero.webp"
@@ -10,8 +9,8 @@ const Hero = () => {
         <>
             <Navbar />
 
-            <section className="bg-white py-12 px-6 md:px-12 mt-22">
-                <div className="container mx-auto flex flex-col md:flex-row items-center justify-between w-[85%]">
+            <section className="bg-white py-12 px-6 md:px-12 mt-22 pb-22">
+                <div className="container mx-auto flex flex-col md:flex-row items-center justify-between w-[75%]">
                     {/* Left Side */}
                     <div className="md:w-1/2 space-y-6">
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
