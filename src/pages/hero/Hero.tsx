@@ -9,11 +9,11 @@ const Hero = () => {
         <>
             <Navbar />
 
-            <section className="bg-white py-12 px-6 md:px-12 mt-22 pb-22">
+            <section className="bg-white lg:py-12 py-10  lg:px-6 md:px-12 mt-22 lg:pb-22">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between w-[75%]">
                     {/* Left Side */}
                     <div className="md:w-1/2 space-y-6">
-                        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 py-6">
+                        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 lg:py-6">
                             Create a Flourishing Business in Any Economy
                         </h1>
                         <p className="text-gray-700 text-lg py-4">

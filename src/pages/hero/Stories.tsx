@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
-import CEO from "../../images/ceo-bg.png"; // Replace with actual image path
+import CEO from "../../images/ceo-bg.png";
 import Services from "./Services";
 
 const testimonials = [
@@ -48,7 +48,7 @@ export default function Stories() {
                         <img
                             src={testimonials[currentIndex].image}
                             alt={testimonials[currentIndex].name}
-                            className="w-52 h-60 object-cover rounded-lg -mt-45"
+                            className="w-52 h-60 object-cover rounded-lg lg:-mt-45 "
                         />
                         {/* Decorative Wreath */}
                         <div className="absolute top-1/2 left-0 w-full h-full -z-10 opacity-20">
