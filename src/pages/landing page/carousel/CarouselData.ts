@@ -1,4 +1,4 @@
-import phone from "../../images/phone.jpg";
+import phone from "../../../images/phone.jpg";
 
 export const carouselData = [
     {

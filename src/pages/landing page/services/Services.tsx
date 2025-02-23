@@ -1,5 +1,5 @@
-import { services } from "../servicesData";
-import Carousel from "./Carousel";
+import { services } from "./servicesData";
+import Carousel from "../carousel/Carousel";
 
 export default function Services() {
     return (

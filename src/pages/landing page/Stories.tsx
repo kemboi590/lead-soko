@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 import CEO from "../../images/ceo-bg.png";
-import Services from "./Services";
+import Services from "./services/Services";
 
 const testimonials = [
     {

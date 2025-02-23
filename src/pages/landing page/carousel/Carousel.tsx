@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { carouselData } from "./CarouselData";
-import CoachingProgram from "./CoachingProgram";
+import CoachingProgram from "../CoachingProgram";
 
 export default function Carousel() {
     const [currentIndex, setCurrentIndex] = useState(0);
