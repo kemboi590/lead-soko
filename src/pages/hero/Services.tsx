@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 export default function Services() {
     return (
         <>
-            <section className="max-w-6xl mx-auto py-16 px-6 text-center">
+            <section className="mx-auto py-16 px-6 text-center lg:w-[75%]">
                 {/* Heading Section */}
                 <h3 className="text-sm font-semibold tracking-widest text-gray-500">
                     OUR SERVICES
