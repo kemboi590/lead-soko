@@ -1,4 +1,3 @@
-import SucessPhoto from "../../images/successPhoto.png";
 import Stories1 from "../../images/Stories1.png"
 import Stories2 from "../../images/stories2.jpg"
 import Stories3 from "../../images/stories3.webp"

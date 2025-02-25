@@ -30,7 +30,7 @@ const Navbar = () => {
                         Company
                     </button>
                     <button className="button">
-                        Schedule Your Call
+                        <Link to="/schedule-call" className="text-white">Schedule Your Call</Link>
                     </button>
                 </div>
 
@@ -69,7 +69,9 @@ const Navbar = () => {
                     <Link to="/success-stories" className="px-4 py-2 border-b">Success Stories</Link>
                     <Link to="/training" className="px-4 py-2 border-b">Training</Link>
                     <button className="px-4 py-2 border-b">Company</button>
-                    <button className="bg-blue-600 text-white px-4 py-2 mx-4 my-2 rounded-lg">Schedule Your Call</button>
+                    <button className="bg-blue-600 text-white px-4 py-2 mx-4 my-2 rounded-lg">
+                        <Link to="/schedule-call" className="text-white">Schedule Your Call</Link>
+                    </button>
                 </div>
             )}
         </nav>
