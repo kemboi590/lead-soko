@@ -1,5 +1,5 @@
 import phone from "../../images/phone.jpg";
-import TrustedBrands from "./TrustedBrands";
+import TrustedBrands from "./10.TrustedBrands";
 
 const BusinessGrowthSection = () => {
     return (

@@ -1,6 +1,6 @@
 
 import IMGG from "../../images/hero.webp"
-import StepsSection from "./StepsSection";
+import StepsSection from "./7.StepsSection";
 const RevenueSection = () => {
     return (
         <>

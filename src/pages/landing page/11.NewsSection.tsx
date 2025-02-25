@@ -1,7 +1,7 @@
 import AmazonVisa from "../../images/AmazonVisa.webp";
 import Banking from "../../images/Banking.webp";
 import PayPal from "../../images/PayPal.avif";
-import SignupSection from "./SignupSection";
+import SignupSection from "./12.SignupSection";
 
 const NewsSection = () => {
     return (

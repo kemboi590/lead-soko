@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Navbar from '../../components/navbar/Navbar';
 // import heroImage from "../../images/hero-potrait.jpg";
 import hero from "../../images/hero.webp"
-import Stories from "./Stories";
+import Stories from "./2.Stories";
 
 const Hero = () => {
     return (

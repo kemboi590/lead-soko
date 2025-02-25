@@ -1,6 +1,6 @@
 import SuccesStoryIMG from "../../images/success-stories.jpg";
 import videoRPT from "../../images/hero.webp";
-import RevenueSection from "./RevenueSection";
+import RevenueSection from "./6.RevenueSection";
 
 export default function CoachingProgram() {
     const successStories = [

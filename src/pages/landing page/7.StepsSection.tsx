@@ -1,4 +1,4 @@
-import MarketingFunnel from "./MarketingFunnel";
+import MarketingFunnel from "./8.MarketingFunnel";
 
 const StepsSection = () => {
     return (

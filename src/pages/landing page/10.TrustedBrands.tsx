@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import msLogo from "../../images/mslogo.jpg";
-import NewsSection from "./NewsSection";
+import NewsSection from "./11.NewsSection";
 
 const brands = [msLogo, msLogo, msLogo, msLogo, msLogo];
 
