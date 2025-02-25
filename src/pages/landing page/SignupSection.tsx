@@ -25,7 +25,8 @@ const SignupSection = () => {
                                 placeholder="Enter your email address"
                                 className="border rounded-md px-4 py-2 w-full sm:max-w-md"
                             />
-                            <button className="bg-blue-600 text-white px-6 py-2 rounded-md whitespace-nowrap w-full sm:w-auto">
+                            {/* bg-blue-600 text-white px-6 py-2 rounded-md whitespace-nowrap w-full sm:w-auto */}
+                            <button className="button w-full sm:w-auto">
                                 Sign Up
                             </button>
                         </div>

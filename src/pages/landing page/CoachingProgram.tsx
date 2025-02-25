@@ -45,7 +45,7 @@ export default function CoachingProgram() {
                         </p>
                         <a
                             href="#"
-                            className="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition"
+                            className="button bg-blue-600 text-white mt-4 inline-block"
                         >
                             Free Coaching Session ↗
                         </a>

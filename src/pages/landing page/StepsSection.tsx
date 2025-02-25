@@ -12,7 +12,8 @@ const StepsSection = () => {
                     <h2 className="text-3xl font-bold text-neutral mt-2">
                         Acquire loyal clients that pay using our proven 3-step process:
                     </h2>
-                    <button className="btn bg-blue-600 hover:bg-blue-700 text-white mt-6 px-6 py-3 rounded-md flex items-center">
+
+                    <button className="button mt-6">
                         Free Case Evaluation <span className="ml-2">⬇</span>
                     </button>
                 </div>
