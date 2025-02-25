@@ -4,7 +4,7 @@ import TrustedBrands from "./10.TrustedBrands";
 const BusinessGrowthSection = () => {
     return (
         <>
-            <section className="bg-gray-900 text-white py-16 px-6 lg:w-[80%] mx-auto mt-12 rounded-xl">
+            <section className="bg-gray-900 text-white py-16 px-6 global-container mx-auto mt-12 rounded-xl">
                 {/* Heading Section */}
                 <div className="text-center max-w-3xl mx-auto">
                     <h2 className="text-3xl sm:text-4xl font-semibold">Get Ready To Grow Your Business?</h2>

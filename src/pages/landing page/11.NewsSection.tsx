@@ -6,7 +6,7 @@ import SignupSection from "./12.SignupSection";
 const NewsSection = () => {
     return (
         <>
-            <section className="py-12 px-6 lg:px-20 lg:w-[75%] mx-auto">
+            <section className="py-12 px-6 lg:px-20 global-container mx-auto">
                 {/* Header */}
                 <div className="flex justify-between items-center mb-8">
                     <h2 className="text-3xl font-semibold">Latest News & Market Insights</h2>

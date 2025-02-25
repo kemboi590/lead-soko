@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 const SignupSection = () => {
     return (
         <>
-            <section className="bg-[#eff4f8] px-6 lg:px-20 rounded-xl mx-auto mt-12 w-full lg:w-[75%]">
+            <section className="bg-[#eff4f8] px-6 lg:px-20 rounded-xl mx-auto mt-12 w-full global-container">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
                     {/* Left Content */}
                     <div>

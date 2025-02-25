@@ -4,7 +4,7 @@ import BusinessGrowthSection from "./9.BusinessGrowthSection";
 const MarketingFunnel = () => {
     return (
         <>
-            <section className="py-8 px-4 sm:py-12 sm:px-6 lg:py-16 lg:px-8 lg:w-[75%] mx-auto text-center">
+            <section className="py-8 px-4 sm:py-12 sm:px-6 lg:py-16 lg:px-8 global-container mx-auto text-center">
                 {/* Heading Section */}
                 <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium text-gray-900 max-w-4xl mx-auto leading-relaxed">
                     Everything we do and teach is based on simple, fundamental principles and habits

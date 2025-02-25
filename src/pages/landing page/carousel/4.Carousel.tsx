@@ -16,7 +16,7 @@ export default function Carousel() {
 
     return (
         <>
-            <div className="relative w-full mx-auto py-6 overflow-x-hidden lg:w-[75%]">
+            <div className="relative w-full mx-auto py-6 overflow-x-hidden global-container">
                 <div
                     ref={scrollRef}
                     className="flex gap-4 overflow-x-auto scroll-smooth scrollbar-hide">
