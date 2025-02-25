@@ -4,10 +4,10 @@ import { MdStarRate } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-10 w-full mt-3 lg:w-[75%] mx-auto">
+        <footer className="bg-black text-white py-10 w-full mt-3 lg:w-[75%] mx-auto rounded-2xl lg:rounded-3xl">
             <div className="container mx-auto relative lg:px-12 px-4">
                 {/* Footer Links (Left-Aligned, Tighter Spacing) */}
-                <div className="flex flex-col lg:flex-row gap-8">
+                <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
                     {/* ENROLL NOW */}
                     <div className="text-left">
                         <h4 className="font-semibold mb-2">ENROLL NOW</h4>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
 
                 {/* Top Section (Trust Indicators) - Horizontal Alignment */}
-                <div className="flex flex-col lg:flex-row justify-start gap-4 mb-8 mt-8 lg:mt-5 lg:order-none order-2">
+                <div className="flex flex-col lg:flex-row justify-start gap-4 mb-8 mt-8 lg:order-none order-2">
                     <button className="bg-gray-800 px-4 py-2 rounded-lg flex items-center justify-between w-full lg:w-48">
                         <span className="text-sm">1-800-D2C</span>
                         <span className="text-yellow-400 text-xs">Recommended Tool</span>
