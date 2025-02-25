@@ -2,7 +2,7 @@ import { useState } from "react";
 import { navbarData } from "./dropDownData";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import icon from "../../images/icon.jpg";
+import icon from "../../images/icon.png";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Navbar = () => {
@@ -14,16 +14,14 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center p-2">
                 {/* Logo */}
                 <Link to="/" className="flex items-center">
-                    <img src={icon} alt="Miro Clone" className="h-14 w-auto" />
-                    {/* Leadsoko */}
-                    <h2 className="text-2xl font-semibold text-gray-800 ml-2">Leadsoko </h2>
+                    <img src={icon} alt="Miro Clone" className="h-10 w-auto lg:h-14" />
                 </Link>
 
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex items-center space-x-6 gap-6">
                     <Dropdown title="Product" categories={navbarData.productCategories} />
-                    <Link to="/pricing" className="text-gray-700 hover:text-gray-900">Success Stories</Link>
-                    <Link to="/pricing" className="text-gray-700 hover:text-gray-900">Training</Link>
+                    <Link to="/success-stories" className="text-gray-700 hover:text-gray-900 text-xl">Success Stories</Link>
+                    <Link to="/training" className="text-gray-700 hover:text-gray-900 text-xl">Training</Link>
                 </div>
 
                 {/* Actions */}
@@ -47,8 +45,7 @@ const Navbar = () => {
                 <div className="lg:hidden flex flex-col bg-white shadow-md text-lg p-4">
                     <button
                         className="flex items-center justify-between px-4 py-2 border-b"
-                        onClick={() => setIsProductOpen(!isProductOpen)}
-                    >
+                        onClick={() => setIsProductOpen(!isProductOpen)}>
                         Product <MdKeyboardArrowDown size={24} />
                     </button>
                     {isProductOpen && (
@@ -69,7 +66,7 @@ const Navbar = () => {
                             ))}
                         </div>
                     )}
-                    <Link to="/pricing" className="px-4 py-2 border-b">Success Stories</Link>
+                    <Link to="/success-stories" className="px-4 py-2 border-b">Success Stories</Link>
                     <Link to="/training" className="px-4 py-2 border-b">Training</Link>
                     <button className="px-4 py-2 border-b">Company</button>
                     <button className="bg-blue-600 text-white px-4 py-2 mx-4 my-2 rounded-lg">Schedule Your Call</button>
@@ -85,16 +82,23 @@ interface DropdownProps {
     mobile?: boolean;
 }
 
+// used to render dropdown menu
 const Dropdown = ({ title, categories, mobile }: DropdownProps) => {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
     return (
-        <div className="relative group">
-            <button className="text-gray-700 hover:text-gray-900 flex items-center transition-all duration-300">
+        <div
+            className="relative group"
+            onMouseEnter={() => setIsDropdownOpen(true)}
+            onMouseLeave={() => setIsDropdownOpen(false)}
+        >
+            <button className="text-gray-700 hover:text-gray-900 flex items-center transition-all duration-300 text-xl">
                 {title} <span className="ml-1"> <MdKeyboardArrowDown size={26} /> </span>
             </button>
 
             {/* Dropdown Menu */}
             <div
-                className={`absolute left-0 mt-8 bg-white shadow-lg rounded-lg p-4 w-auto hidden group-hover:flex opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 ease-in-out ${mobile ? "block relative w-full flex-col" : ""}`}
+                className={`absolute left-0 bg-white shadow-lg rounded-lg p-4 w-auto ${isDropdownOpen ? "flex" : "hidden"} opacity-100 scale-100 transition-all duration-300 ease-in-out shadow-xl border-t-2 border-gray-200  ${mobile ? "block relative w-full flex-col" : ""}`}
             >
                 <div className="flex gap-8">
                     {categories.map((category, index) => (
