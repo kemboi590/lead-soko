@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Error from './pages/Error';
 import SuccessStories from './pages/success stories/SuccessStories';
 import Hero from './pages/landing page/1.Hero';
+import ScheduleCall from './pages/schedulecall/ScheduleCall';
 
 // Define your routes here
 const router = createBrowserRouter([
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
   {
     path: 'success-stories',
     element: <SuccessStories />,
+    errorElement: <Error />
+  },
+  {
+    path: 'schedule-call',
+    element: <ScheduleCall />,
     errorElement: <Error />
   }
 
