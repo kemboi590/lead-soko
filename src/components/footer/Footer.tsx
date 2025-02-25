@@ -4,7 +4,7 @@ import { MdStarRate } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-10 w-full mt-3 global-container mx-auto rounded-2xl lg:rounded-3xl">
+        <footer className="bg-black text-white py-10 w-full mt-3 global-container mx-auto rounded-t-2xl lg:rounded-t-3xl">
             <div className="container mx-auto relative lg:px-12 px-4">
                 {/* Footer Links (Left-Aligned, Tighter Spacing) */}
                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
