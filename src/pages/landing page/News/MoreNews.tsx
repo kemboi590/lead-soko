@@ -13,7 +13,7 @@ const MoreNews = () => {
                         Here’s how our marketing advisors can bring your idea to life.
                     </p>
                     <div className="mt-6">
-                        <Link to="/contact">
+                        <Link to="/schedule-call">
                             <button className="bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2">
                                 Talk to our Experts <span>↗</span>
                             </button>
