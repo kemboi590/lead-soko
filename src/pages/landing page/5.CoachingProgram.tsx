@@ -33,9 +33,9 @@ export default function CoachingProgram() {
     return (
 
         <>
-            <section className="bg-gray-900 text-white p-8 rounded-lg mx-auto shadow-lg global-container">
+            <section className="bg-gray-900 text-white p-8 rounded-lg mx-auto shadow-lg global-container ">
                 {/* Main Section */}
-                <div className="flex flex-col md:flex-row items-center justify-between">
+                <div className="flex flex-col md:flex-row items-center justify-between lg:px-8">
                     {/* Left Side - Text & CTA */}
                     <div className="max-w-lg">
                         <h2 className="text-4xl font-semibold">Join Our Coaching Program</h2>
@@ -68,7 +68,7 @@ export default function CoachingProgram() {
                 </div>
 
                 {/* Success Stories */}
-                <div className="mt-8 border-t border-gray-700 pt-6">
+                <div className="mt-8 border-t border-gray-700 pt-6 lg:px-8">
                     <h3 className="text-lg font-semibold mb-4">SUCCESS STORIES</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         {successStories.map((story) => (

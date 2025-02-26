@@ -9,12 +9,12 @@ const NewsSection = () => {
     const navigate = useNavigate();
     return (
         <>
-            <section className="py-12 px-6 lg:px-20 global-container mx-auto">
+            <section className="py-12 px-6 lg:px-8 lg:px-20 global-container mx-auto">
                 {/* Header */}
                 <div className="flex justify-between items-center mb-8">
-                    <h2 className="text-3xl font-semibold">Latest News & Market Insights</h2>
+                    <h2 className="text-xl md:text-3xl font-semibold">Latest News & Market Insights</h2>
                     <div>
-                        <button className="btn btn-outline flex items-center gap-2 justify-end" onClick={() => navigate("/more-news")}>
+                        <button className="flex items-center md:gap-2 justify-end border border-gray-500 md:px-4 md:py-2 rounded-lg w-full md:w-auto" onClick={() => navigate("/more-news")}>
                             VIEW ALL POSTS <span><GoArrowUpRight size={24} /></span>
                         </button>
                     </div>

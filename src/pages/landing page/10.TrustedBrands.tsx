@@ -33,7 +33,7 @@ const TrustedBrands = () => {
 
     return (
         <>
-            <section className="py-10 px-6 global-container mx-auto">
+            <section className="py-10 px-6 lg:px-8 global-container mx-auto">
                 <h2 className="text-center text-2xl font-semibold mb-6">
                     Trusted by Leading Brands
                 </h2>

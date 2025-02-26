@@ -4,7 +4,7 @@ import { PiArrowDownLight } from "react-icons/pi";
 const StepsSection = () => {
     return (
         <>
-            <section className="py-12 px-6 mx-auto flex flex-col md:flex-row items-center gap-10 border-b-1 border-gray-700 mb-5 global-container">
+            <section className="py-12 px-6 lg:px-8 mx-auto flex flex-col md:flex-row items-center gap-10 border-b-1 border-gray-700 mb-5 global-container">
                 {/* Left Side: Text & Button */}
                 <div className="md:w-1/2 text-left">
                     <h3 className="text-sm font-semibold text-gray-500 tracking-wide uppercase">

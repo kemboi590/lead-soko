@@ -42,19 +42,14 @@ export default function Stories() {
     return (
         <>
             <section className="bg-black text-white py-12 px-6 rounded-xl relative global-container shadow-lg">
-                <div className="flex flex-col md:flex-row items-center justify-around gap-8">
+                <div className="flex flex-col md:flex-row items-center justify-evenly gap-8">
                     {/* Left Side - Image */}
                     <div className="relative">
                         <img
                             src={testimonials[currentIndex].image}
                             alt={testimonials[currentIndex].name}
                             className="w-52 h-60 object-cover rounded-lg lg:-mt-45 "
-                        />
-                        {/* Decorative Wreath */}
-                        <div className="absolute top-1/2 left-0 w-full h-full -z-10 opacity-20">
-                            🌿🌿 {/* Replace with SVG or background image */}
-
-                        </div>
+                        />                        
                     </div>
 
                     {/* Right Side - Quote & Details */}
