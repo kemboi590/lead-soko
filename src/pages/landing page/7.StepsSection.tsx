@@ -1,4 +1,5 @@
 import MarketingFunnel from "./8.MarketingFunnel";
+import { PiArrowDownLight } from "react-icons/pi";
 
 const StepsSection = () => {
     return (
@@ -13,8 +14,10 @@ const StepsSection = () => {
                         Acquire loyal clients that pay using our proven 3-step process:
                     </h2>
 
-                    <button className="button mt-6">
-                        Free Case Evaluation <span className="ml-2">⬇</span>
+                    <button className="btn button mt-6">
+                        Free Case Evaluation <span className="">
+                            <PiArrowDownLight size={26} />
+                        </span>
                     </button>
                 </div>
 

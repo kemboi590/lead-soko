@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import msLogo from "../../images/mslogo.jpg";
-import NewsSection from "./11.NewsSection";
+import NewsSection from "./News/11.NewsSection";
 
 const brands = [msLogo, msLogo, msLogo, msLogo, msLogo];
 
@@ -33,28 +33,28 @@ const TrustedBrands = () => {
 
     return (
         <>
-        <section className="py-10 px-6 global-container mx-auto">
-            <h2 className="text-center text-2xl font-semibold mb-6">
-                Trusted by Leading Brands
-            </h2>
-            <div
-                ref={scrollRef}
-                className="relative overflow-hidden whitespace-nowrap scrollbar-hide"
-            >
-                <div className="flex space-x-8 justify-center items-center">
-                    {/* Duplicate logos for smooth looping */}
-                    {[...brands, ...brands].map((logo, index) => (
-                        <img
-                            key={index}
-                            src={logo}
-                            alt="Brand Logo"
-                            className="h-16 w-auto sm:h-20 md:h-24 lg:h-32 xl:h-40"
-                        />
-                    ))}
+            <section className="py-10 px-6 global-container mx-auto">
+                <h2 className="text-center text-2xl font-semibold mb-6">
+                    Trusted by Leading Brands
+                </h2>
+                <div
+                    ref={scrollRef}
+                    className="relative overflow-hidden whitespace-nowrap scrollbar-hide"
+                >
+                    <div className="flex space-x-8 justify-center items-center">
+                        {/* Duplicate logos for smooth looping */}
+                        {[...brands, ...brands].map((logo, index) => (
+                            <img
+                                key={index}
+                                src={logo}
+                                alt="Brand Logo"
+                                className="h-16 w-auto sm:h-20 md:h-24 lg:h-32 xl:h-40"
+                            />
+                        ))}
+                    </div>
                 </div>
-            </div>
-        </section>
-        <NewsSection/>
+            </section>
+            <NewsSection />
         </>
 
     );

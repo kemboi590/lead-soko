@@ -1,18 +1,23 @@
-import AmazonVisa from "../../images/AmazonVisa.webp";
-import Banking from "../../images/Banking.webp";
-import PayPal from "../../images/PayPal.avif";
-import SignupSection from "./12.SignupSection";
+import { useNavigate } from "react-router-dom";
+import AmazonVisa from "../../../images/AmazonVisa.webp";
+import Banking from "../../../images/Banking.webp"
+import PayPal from "../../../images/PayPal.avif";
+import SignupSection from "../12.SignupSection";
+import { GoArrowUpRight } from "react-icons/go";
 
 const NewsSection = () => {
+    const navigate = useNavigate();
     return (
         <>
             <section className="py-12 px-6 lg:px-20 global-container mx-auto">
                 {/* Header */}
                 <div className="flex justify-between items-center mb-8">
                     <h2 className="text-3xl font-semibold">Latest News & Market Insights</h2>
-                    <button className="btn btn-outline flex items-center gap-2">
-                        VIEW ALL POSTS <span>↗</span>
-                    </button>
+                    <div>
+                        <button className="btn btn-outline flex items-center gap-2 justify-end" onClick={() => navigate("/more-news")}>
+                            VIEW ALL POSTS <span><GoArrowUpRight size={24} /></span>
+                        </button>
+                    </div>
                 </div>
 
                 {/* News Grid */}

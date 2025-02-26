@@ -1,6 +1,8 @@
 
 import IMGG from "../../images/hero.webp"
 import StepsSection from "./7.StepsSection";
+import { GoArrowUpRight } from "react-icons/go";
+
 const RevenueSection = () => {
     return (
         <>
@@ -13,8 +15,10 @@ const RevenueSection = () => {
                         delight, and convert leads. Toss in our proprietary tech-powered suite
                         of tools, and your campaign is unbeatable.
                     </p>
-                    <button className="btn btn-primary mt-6">
-                        Talk to an Expert? <span className="ml-2">↗</span>
+                    <button className="button btn btn-primary mt-6">
+                        Talk to an Expert? <span className="">
+                            <GoArrowUpRight size={24} />
+                        </span>
                     </button>
                 </div>
                 <div className="mt-8 flex justify-center">

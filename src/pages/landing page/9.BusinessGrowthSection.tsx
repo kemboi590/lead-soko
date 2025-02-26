@@ -1,5 +1,8 @@
 import phone from "../../images/phone.jpg";
 import TrustedBrands from "./10.TrustedBrands";
+import { GoArrowUpRight } from "react-icons/go";
+import { PiArrowDownLight } from "react-icons/pi";
+
 
 const BusinessGrowthSection = () => {
     return (
@@ -21,7 +24,9 @@ const BusinessGrowthSection = () => {
                         <div className="w-1/2 p-6 flex flex-col justify-between">
                             <p className="text-sm font-medium">Leads Delivered</p>
                             <h3 className="text-2xl sm:text-3xl font-bold">$250.12</h3>
-                            <span className="text-xl">↗</span>
+                            <span className="text-xl">
+                                <GoArrowUpRight size={24} />
+                            </span>
                         </div>
                         <div className="w-1/2 relative">
                             <img
@@ -37,7 +42,9 @@ const BusinessGrowthSection = () => {
                         <div className="w-1/2 p-6 flex flex-col justify-between">
                             <p className="text-sm font-medium">In Revenue Generated</p>
                             <h3 className="text-2xl sm:text-3xl font-bold">130M</h3>
-                            <span className="text-xl">↗</span>
+                            <span className="text-xl">
+                                <GoArrowUpRight size={24} />
+                            </span>
                         </div>
                         <div className="w-1/2 relative">
                             <img
@@ -53,7 +60,9 @@ const BusinessGrowthSection = () => {
                         <div className="w-1/2 p-6 flex flex-col justify-between">
                             <p className="text-sm font-medium">Searches</p>
                             <h3 className="text-2xl sm:text-3xl font-bold">150k</h3>
-                            <span className="text-xl">↗</span>
+                            <span className="text-xl">
+                                <GoArrowUpRight size={24} />
+                            </span>
                         </div>
                         <div className="w-1/2 relative">
                             <img
@@ -73,8 +82,8 @@ const BusinessGrowthSection = () => {
                         marketing & sales goals.
                     </p>
 
-                    <button className="button mt-6 ">
-                        Talk to Expert ↓
+                    <button className="btn btn-primary button mt-6 ">
+                        Talk to Expert <span><PiArrowDownLight size={24} /></span>
                     </button>
                 </div>
 

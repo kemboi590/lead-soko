@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
 import SucessPhoto from "../../images/successPhoto.png";
 import Navbar from "../../components/navbar/Navbar";
 import StoriesofSuccess from "./StoriesofSuccess";
@@ -76,9 +77,11 @@ const SuccessStories = () => {
                     <p className="text-gray-700">Ready to talk about how you can achieve similar results?</p>
                     <a
                         href="#"
-                        className="btn btn-primary px-6 py-3 text-white rounded-lg shadow-md transition-all duration-300 hover:bg-blue-600"
+                        className="btn btn-primary rounded-lg shadow-md button"
                     >
-                        Start with a free coaching session →
+                        Start with a free coaching session <span>
+                            <GoArrowUpRight size={20} />
+                        </span>
                     </a>
                 </div>
             </section>

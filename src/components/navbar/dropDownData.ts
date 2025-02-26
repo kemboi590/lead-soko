@@ -17,11 +17,10 @@ export const navbarData: NavbarData = {
         {
             title: 'Platform',
             items: [
-                { name: 'Intelligent Canvas™', link: '/intelligent-canvas' },
-                { name: 'AI', link: '/ai' },
-                { name: 'Integrations', link: '/integrations' },
-                { name: 'Security', link: '/security' },
-                { name: 'Developer Platform', link: '/developer-platform' },
+                { name: 'Sales', link: '/sales' },
+                { name: 'Coaching', link: '/coaching' },
+                { name: 'Training', link: '/training' },
+                { name: 'FAQs', link: '/frequently-ask-questions' }
             ],
         },
         {

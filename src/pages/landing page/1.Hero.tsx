@@ -3,6 +3,8 @@ import Navbar from '../../components/navbar/Navbar';
 // import heroImage from "../../images/hero-potrait.jpg";
 import hero from "../../images/hero.webp"
 import Stories from "./2.Stories";
+import { MdStarRate } from "react-icons/md";
+
 
 const Hero = () => {
     return (
@@ -25,7 +27,11 @@ const Hero = () => {
                         <div className="flex items-center space-x-2">
                             <span className="text-sm text-gray-500">REVIEWED ON</span>
                             <span className="text-lg font-bold text-blue-600">Clutch</span>
-                            <span className="text-red-500">★★★★★</span>
+                            <span className="text-red-500">
+                                {[...Array(5)].map((_, i) => (
+                                    <MdStarRate key={i} className="inline-block" />
+                                ))}
+                            </span>
                             <span className="text-gray-500">5/5</span>
                         </div>
                     </div>

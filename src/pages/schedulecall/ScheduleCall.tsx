@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+import { GoArrowUpRight } from "react-icons/go";
 
 const ScheduleCall = () => {
     const [formData, setFormData] = useState({
@@ -38,8 +39,10 @@ const ScheduleCall = () => {
                             Explore our coaching services and industry expertise. Need something else?
                             See below for more ways to get in touch.
                         </p>
-                        <button className="border border-blue-700 bg-white text-blue-700 font-bold px-6 py-3 rounded-lg shadow-sm hover:bg-gray-200 transition-all">
-                            WhatsApp Us <span className="text-xl">↗</span>
+                        <button className="border btn  border-blue-700 bg-white text-blue-700 font-bold px-6 py-3 rounded-lg shadow-sm hover:bg-gray-200 transition-all">
+                            WhatsApp Us <span className="text-xl">
+                                <GoArrowUpRight size={24} />
+                            </span>
                         </button>
                     </div>
                 </div>

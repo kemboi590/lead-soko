@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { carouselData } from "./CarouselData";
 import CoachingProgram from "../5.CoachingProgram";
+import { GoArrowUpRight } from "react-icons/go";
 
 export default function Carousel() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,7 +37,7 @@ export default function Carousel() {
                                 <div className="w-1/2 flex flex-col justify-center p-4">
                                     <h3 className="text-lg font-semibold">{item.title}</h3>
                                     <a href={item.link} className="mt-2 text-gray-600 hover:underline">
-                                        ↗
+                                        <span><GoArrowUpRight size={24} /></span>
                                     </a>
                                 </div>
                             </div>
