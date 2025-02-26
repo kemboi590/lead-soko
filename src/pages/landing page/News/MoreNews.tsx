@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../../components/navbar/Navbar";
+import NewsList from "./NewsList";
 
 const MoreNews = () => {
     return (
         <>
             <Navbar />
-            <section className="bg-black text-white py-16 px-6 lg:px-20">
-                <div className="max-w-5xl mx-auto">
+            <section className="bg-black text-white py-16 px-6 lg:px-20 mt-24 global-container mx-auto">
+                <div className="mx-auto md:max-w-[80%] ">
                     <h1 className="text-4xl md:text-5xl font-bold">Latest News & Insights</h1>
                     <p className="text-gray-400 mt-4">
                         Here’s how our marketing advisors can bring your idea to life.
@@ -20,6 +21,7 @@ const MoreNews = () => {
                     </div>
                 </div>
             </section>
+            <NewsList />
         </>
     );
 };

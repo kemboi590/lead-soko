@@ -9,7 +9,7 @@
 }
 
 .global-container {
-  @apply mx-auto lg:w-[80%];
+  @apply mx-auto lg:w-[100%];
   
 }
 

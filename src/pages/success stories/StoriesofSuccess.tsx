@@ -52,7 +52,7 @@ const StoriesofSuccess = () => {
                 </aside>
 
                 {/* Stories */}
-                <div className="md:w-3/4 w-full grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                <div className="md:w-3/4 w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-16">
                     {filteredStories.length > 0 ? (
                         filteredStories.map((story) => (
                             <div key={story.id} className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
