@@ -9,11 +9,11 @@ interface NavCategory {
 }
 
 interface NavbarData {
-    productCategories: NavCategory[];
+    servicesCategories: NavCategory[];
 }
 
 export const navbarData: NavbarData = {
-    productCategories: [
+    servicesCategories: [
         {
             title: 'Platform',
             items: [

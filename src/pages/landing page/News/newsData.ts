@@ -1,6 +1,6 @@
-import AmazonVisa from "../../../images/AmazonVisa.webp";
-import Banking from "../../../images/Banking.webp";
-import PayPal from "../../../images/PayPal.avif";
+import AmazonVisa from "../../../assets/images/AmazonVisa.webp";
+import Banking from "../../../assets/images/Banking.webp";
+import PayPal from "../../../assets/images/PayPal.avif";
 
 export const newsData = [
     {

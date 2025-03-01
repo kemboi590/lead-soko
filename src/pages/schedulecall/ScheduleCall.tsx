@@ -38,7 +38,7 @@ const ScheduleCall = () => {
                             Explore our coaching services and industry expertise. Need something else?
                             See below for more ways to get in touch.
                         </p>
-                        <button className="border border-blue-700 bg-white text-blue-700 font-bold px-6 py-3 rounded-lg shadow-sm hover:bg-gray-200 transition-all">
+                        <button className="btn border  bg-white text-blue-700 font-bold px-6 py-3 rounded-lg shadow-sm hover:bg-gray-200 transition-all">
                             WhatsApp Us <span className="text-xl">↗</span>
                         </button>
                     </div>

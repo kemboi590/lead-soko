@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
-import CEO from "../../images/ceo-bg.png";
+import CEO from "../../assets/images/ceo-bg.png";
 import Services from "./services/3.Services";
 
 const testimonials = [

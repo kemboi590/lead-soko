@@ -2,7 +2,7 @@ import { useState } from "react";
 import { navbarData } from "./dropDownData";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import icon from "../../images/icon.png";
+import icon from "../../assets/images/icon.png";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex items-center space-x-6 gap-6">
-                    <Dropdown title="Product" categories={navbarData.productCategories} />
+                    <Dropdown title="Services" categories={navbarData.servicesCategories} />
                     <Link to="/success-stories" className="text-gray-700 hover:text-gray-900 text-xl">Success Stories</Link>
                     <Link to="/training" className="text-gray-700 hover:text-gray-900 text-xl">Training</Link>
                 </div>
@@ -46,11 +46,12 @@ const Navbar = () => {
                     <button
                         className="flex items-center justify-between px-4 py-2 border-b"
                         onClick={() => setIsProductOpen(!isProductOpen)}>
-                        Product <MdKeyboardArrowDown size={24} />
+                        Services
+                        <MdKeyboardArrowDown size={24} />
                     </button>
                     {isProductOpen && (
                         <div className="flex flex-col px-4 py-2">
-                            {navbarData.productCategories.map((category, index) => (
+                            {navbarData.servicesCategories.map((category, index) => (
                                 <div key={index} className="flex flex-col mb-2">
                                     <p className="font-semibold text-gray-700 mb-2">{category.title}</p>
                                     {category.items.map((item, idx) => (
@@ -67,7 +68,7 @@ const Navbar = () => {
                         </div>
                     )}
                     <Link to="/success-stories" className="px-4 py-2 border-b">Success Stories</Link>
-                    <Link to="/training" className="px-4 py-2 border-b">Training</Link>
+                    <Link to="/training" className="px-4 py-2 border-b">Services</Link>
                     <button className="px-4 py-2 border-b">Company</button>
                     <button className="bg-blue-600 text-white px-4 py-2 mx-4 my-2 rounded-lg">
                         <Link to="/schedule-call" className="text-white">Schedule Your Call</Link>

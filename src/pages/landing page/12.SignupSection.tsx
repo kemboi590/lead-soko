@@ -1,6 +1,6 @@
-import TeamCollaboration from "../../images/TeamCollaboration.jpeg";
-import Businessman from "../../images/Businessman.avif";
-import Professional from "../../images/Professional.png";
+import TeamCollaboration from "../../assets/images/TeamCollaboration.jpeg";
+import Businessman from "../../assets/images/Businessman.avif";
+import Professional from "../../assets/images/Professional.png";
 import Footer from "../../components/footer/Footer";
 
 const SignupSection = () => {

@@ -1,5 +1,5 @@
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
-import icon from "../../images/icon.png";
+import icon from "../../assets/images/icon.png";
 import { MdStarRate } from "react-icons/md";
 
 const Footer = () => {

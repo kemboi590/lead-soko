@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
-import SucessPhoto from "../../images/successPhoto.png";
+import SucessPhoto from "../../assets/images/successPhoto.png";
 import Navbar from "../../components/navbar/Navbar";
 import StoriesofSuccess from "./StoriesofSuccess";
 

@@ -1,5 +1,5 @@
 
-import IMGG from "../../images/hero.webp"
+import IMGG from "../../assets/images/hero.webp"
 import StepsSection from "./7.StepsSection";
 import { GoArrowUpRight } from "react-icons/go";
 

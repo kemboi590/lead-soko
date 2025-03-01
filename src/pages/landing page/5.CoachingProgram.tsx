@@ -1,5 +1,5 @@
-import SuccesStoryIMG from "../../images/success-stories.jpg";
-import videoRPT from "../../images/hero.webp";
+import SuccesStoryIMG from "../../assets/images/success-stories.jpg";
+import videoRPT from "../../assets/images/hero.webp";
 import RevenueSection from "./6.RevenueSection";
 
 export default function CoachingProgram() {

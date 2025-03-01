@@ -1,4 +1,4 @@
-import phone from "../../images/phone.jpg";
+import phone from "../../assets/images/phone.jpg";
 import TrustedBrands from "./10.TrustedBrands";
 import { GoArrowUpRight } from "react-icons/go";
 import { PiArrowDownLight } from "react-icons/pi";

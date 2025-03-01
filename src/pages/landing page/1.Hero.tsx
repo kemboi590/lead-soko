@@ -1,7 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
 import Navbar from '../../components/navbar/Navbar';
-// import heroImage from "../../images/hero-potrait.jpg";
-import hero from "../../images/hero.webp"
+import hero from "../../assets/images/hero.webp"
 import Stories from "./2.Stories";
 import { MdStarRate } from "react-icons/md";
 
@@ -21,7 +20,7 @@ const Hero = () => {
                             <strong>Growing business revenue</strong> is challenging. We simplify the
                             process, making it <strong>more predictable, less stressful, and even enjoyable!</strong>
                         </p>
-                        <button className="bg-blue-600 text-white px-6 py-3 flex items-center rounded-lg hover:bg-blue-700 transition">
+                        <button className="button btn">
                             Free Coaching Session <FaArrowRight className="ml-2" />
                         </button>
                         <div className="flex items-center space-x-2">

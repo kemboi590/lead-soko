@@ -1,6 +1,7 @@
-import Stories1 from "../../images/Stories1.png"
-import Stories2 from "../../images/stories2.jpg"
-import Stories3 from "../../images/stories3.webp"
+import Stories1 from "../../assets/images/Stories1.png"
+import Stories2 from "../../assets/images/stories2.jpg"
+import Stories3 from "../../assets/images/stories3.webp"
+
 export const filters = {
     companyType: ["B2C", "B2B"],
     industry: [

@@ -7,6 +7,7 @@ import SuccessStories from './pages/success stories/SuccessStories';
 import Hero from './pages/landing page/1.Hero';
 import ScheduleCall from './pages/schedulecall/ScheduleCall';
 import MoreNews from './pages/landing page/News/MoreNews';
+import Training from './components/training/Training';
 
 // Define your routes here
 const router = createBrowserRouter([
@@ -27,7 +28,12 @@ const router = createBrowserRouter([
   },
   {
     path: 'more-news',
-    element: <MoreNews/>,
+    element: <MoreNews />,
+    errorElement: <Error />
+  },
+  {
+    path: 'training',
+    element: <Training />,
     errorElement: <Error />
   }
 

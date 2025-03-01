@@ -1,4 +1,4 @@
-import marketingFunnel from "../../images/marketingFunnel.png";
+import marketingFunnel from "../../assets/images/marketingFunnel.png";
 import BusinessGrowthSection from "./9.BusinessGrowthSection";
 
 const MarketingFunnel = () => {
