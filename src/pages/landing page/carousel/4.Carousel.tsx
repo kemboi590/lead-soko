@@ -35,7 +35,7 @@ export default function Carousel() {
                                 />
                                 {/* Right Half - Content */}
                                 <div className="w-1/2 flex flex-col justify-center p-4">
-                                    <h3 className="text-lg font-semibold">{item.title}</h3>
+                                    <h3 className="NormalText">{item.title}</h3>
                                     <a href={item.link} className="mt-2 text-gray-600 hover:underline">
                                         <span><GoArrowUpRight size={24} /></span>
                                     </a>

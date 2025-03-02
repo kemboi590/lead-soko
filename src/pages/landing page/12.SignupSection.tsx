@@ -14,7 +14,7 @@ const SignupSection = () => {
                             Partner with Us for Powerful, <br className="hidden sm:block" />
                             Results-Driven Marketing Strategies
                         </h2>
-                        <p className="text-gray-600 mt-4">
+                        <p className="text-gray-600 mt-4 NormalText">
                             Keep up to date with technology and innovation, now and in the future.
                         </p>
 

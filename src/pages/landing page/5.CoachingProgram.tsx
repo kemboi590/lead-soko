@@ -38,8 +38,8 @@ export default function CoachingProgram() {
                 <div className="flex flex-col md:flex-row items-center justify-between lg:px-8">
                     {/* Left Side - Text & CTA */}
                     <div className="max-w-lg">
-                        <h2 className="text-4xl font-semibold">Join Our Coaching Program</h2>
-                        <p className="mt-2 text-gray-400">
+                        <h2 className="text-4xl font-bold">Join Our Coaching Program</h2>
+                        <p className="mt-2 NormalText">
                             This is your time to be heard and understood — to talk about the sales, marketing, or other
                             business challenges that have been keeping you up at night.
                         </p>
@@ -74,8 +74,8 @@ export default function CoachingProgram() {
                         {successStories.map((story) => (
                             <div key={story.id} className="bg-gray-800 rounded-lg p-4 shadow-sm">
                                 <img src={story.image} alt={story.name} className="w-full h-28 object-cover rounded-md" />
-                                <h4 className="mt-2 font-semibold">{story.name}</h4>
-                                <p className="text-gray-400 text-sm">{story.quote}</p>
+                                <h4 className="mt-2 font-semibold italic underline">{story.name}</h4>
+                                <p className=" text-sm CardText">{story.quote}</p>
                             </div>
                         ))}
                     </div>

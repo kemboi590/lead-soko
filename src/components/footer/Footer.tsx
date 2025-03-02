@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
                     {/* ENROLL NOW */}
                     <div className="text-left">
-                        <h4 className="font-semibold mb-2">ENROLL NOW</h4>
-                        <ul className="space-y-2 text-gray-400">
+                        <h4 className="font-semibold mb-2 BalancedText ">ENROLL NOW</h4>
+                        <ul className="space-y-2 text-gray-400 Descriptions">
                             <li><a href="#">Read Testimonials</a></li>
                             <li><a href="#">Book a consultation</a></li>
                             <li><a href="#">Support center</a></li>
@@ -20,8 +20,8 @@ const Footer = () => {
 
                     {/* PARTNER WITH US */}
                     <div className="text-left">
-                        <h4 className="font-semibold mb-2">PARTNER WITH US</h4>
-                        <ul className="space-y-2 text-gray-400">
+                        <h4 className="font-semibold mb-2 BalancedText">PARTNER WITH US</h4>
+                        <ul className="space-y-2 text-gray-400 Descriptions">
                             <li><a href="#">Become a member</a></li>
                             <li><a href="#">Explore Programs</a></li>
                             <li><a href="#">Accelerate Growth</a></li>
@@ -30,8 +30,8 @@ const Footer = () => {
 
                     {/* CONTACT FACILITATORS */}
                     <div className="text-left">
-                        <h4 className="font-semibold mb-2">CONTACT FACILITATORS</h4>
-                        <ul className="space-y-2 text-gray-400">
+                        <h4 className="font-semibold mb-2 BalancedText">CONTACT FACILITATORS</h4>
+                        <ul className="space-y-2 text-gray-400 Descriptions">
                             <li><a href="#">FAQs</a></li>
                             <li><a href="#">Expert Advice</a></li>
                             <li><a href="#">Resource Library</a></li>
@@ -41,23 +41,23 @@ const Footer = () => {
                 </div>
 
                 {/* Top Section (Trust Indicators) - Horizontal Alignment */}
-                <div className="flex flex-col lg:flex-row justify-start gap-4 mb-8 mt-8 lg:order-none order-2">
-                    <button className="bg-gray-800 px-4 py-2 rounded-lg flex items-center justify-between w-full lg:w-48">
+                <div className="flex flex-col lg:flex-row justify-start gap-4 mb-8 mt-9 lg:order-none order-2">
+                    <button className="bg-gray-800 px-4 py-2 rounded-lg flex items-center justify-between w-full lg:w-56 gap-2">
                         <span className="text-sm">1-800-D2C</span>
-                        <span className="text-yellow-400 text-xs">Recommended Tool</span>
+                        <span className="text-yellow-400 text-xs SmallText">Recommended Tool</span>
                     </button>
-                    <button className="bg-gray-800 px-4 py-2 rounded-lg flex items-center justify-center w-full lg:w-48">
-                        <span className="text-sm flex items-center gap-1">
+                    <button className="bg-gray-800 px-4 py-2 rounded-lg flex items-center justify-center w-full lg:w-56">
+                        <span className="text-sm flex items-center gap-1 SmallText">
                             {[...Array(5)].map((_, i) => (
-                                <MdStarRate key={i} className="text-yellow-400" size={24} />
+                                <MdStarRate key={i} className="text-yellow-400" size={28} />
                             ))}
                             Read our Reviews
                         </span>
                     </button>
-                    <button className="bg-gray-800 px-4 py-2 rounded-lg flex items-center justify-center w-full lg:w-48">
-                        <span className="text-sm flex items-center gap-1">
+                    <button className="bg-gray-800 px-4 py-2 rounded-lg flex items-center justify-center w-full lg:w-56">
+                        <span className="text-sm flex items-center gap-1 SmallText">
                             {[...Array(5)].map((_, i) => (
-                                <MdStarRate key={i} className="text-orange-900" size={24} />
+                                <MdStarRate key={i} className="text-orange-900" size={28} />
                             ))}
                             Reviewed on Clutch
                         </span>

@@ -9,7 +9,7 @@ const RevenueSection = () => {
             <section className="bg-gray-100 py-12 px-6 rounded-xl global-container mx-auto mt-12">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl font-bold text-neutral">How We Drive Revenue</h2>
-                    <p className=" mt-4 text-gray-900 text-xl">
+                    <p className=" mt-4 NormalText">
                         Looking to power up your digital strategy? LeadSoko offers a wide
                         range of digital marketing services that work together to attract,
                         delight, and convert leads. Toss in our proprietary tech-powered suite

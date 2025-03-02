@@ -38,10 +38,10 @@ const NewsSection = () => {
                         <p className="text-blue-500 text-xs font-bold uppercase">
                             Marketing
                         </p>
-                        <h3 className="text-xl font-semibold">
+                        <h3 className="text-xl font-semibold heroContent">
                             Amazon vs Visa: what does it mean for the BNPL market?
                         </h3>
-                        <p className="text-gray-600 text-sm leading-relaxed">
+                        <p className="text-sm NormalText">
                             The thriving BNPL market has seen setbacks in recent months. Yet,
                             could embedded lending be a solution for lenders avoiding high-profile
                             disputes like that between Amazon and Visa? In November...
@@ -88,7 +88,7 @@ const NewsSection = () => {
 
                 {/* Hot Topics Section */}
                 <div className="mt-8 border-t pt-6">
-                    <p className="text-gray-500 font-semibold mb-4 text-sm">HOT TOPIC:</p>
+                    <p className=" font-semibold mb-4 text-sm NormalText">HOT TOPICS:</p>
                     <div className="flex flex-wrap gap-3">
                         {["Business News", "Marketing", "Innovation", "Payment", "Uncategorized"].map((topic, index) => (
                             <button

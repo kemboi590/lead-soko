@@ -54,7 +54,7 @@ export default function Stories() {
 
                     {/* Right Side - Quote & Details */}
                     <div className="flex-1 text-center md:text-left max-w-lg">
-                        <p className="text-xl italic leading-relaxed">"{testimonials[currentIndex].quote}"</p>
+                        <p className="NormalText">"{testimonials[currentIndex].quote}"</p>
                         <div className="mt-4">
                             <p className="font-bold text-lg">{testimonials[currentIndex].name}</p>
                             <p className="text-gray-400">{testimonials[currentIndex].role}</p>

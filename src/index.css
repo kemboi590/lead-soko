@@ -9,9 +9,35 @@
 }
 
 .global-container {
-  @apply mx-auto lg:w-[100%];
-  
+  @apply mx-auto lg:w-[100%];  
 }
+
+
+.heroContent { 
+  @apply py-3 text-xl lg:text-2xl; 
+
+}
+
+.NormalText{
+  @apply text-xl lg:text-2xl leading-relaxed 
+}
+
+.CardText{
+  @apply text-lg lg:text-xl leading-relaxed 
+}
+
+.Descriptions {
+  @apply text-lg lg:text-xl leading-relaxed 
+}
+
+.BalancedText{
+  @apply text-base lg:text-xl leading-relaxed
+}
+
+.SmallText{
+  @apply text-sm lg:text-base leading-relaxed
+}
+
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -20,3 +46,5 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+

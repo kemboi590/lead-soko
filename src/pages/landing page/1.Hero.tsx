@@ -16,7 +16,7 @@ const Hero = () => {
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 lg:py-6">
                             Create a Flourishing Business in Any Economy
                         </h1>
-                        <p className="text-gray-700 text-lg py-4">
+                        <p className="heroContent">
                             <strong>Growing business revenue</strong> is challenging. We simplify the
                             process, making it <strong>more predictable, less stressful, and even enjoyable!</strong>
                         </p>

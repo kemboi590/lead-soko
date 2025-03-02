@@ -11,7 +11,7 @@ const BusinessGrowthSection = () => {
                 {/* Heading Section */}
                 <div className="text-center max-w-3xl mx-auto">
                     <h2 className="text-3xl sm:text-4xl font-semibold">Get Ready To Grow Your Business?</h2>
-                    <p className="text-gray-400 mt-4">
+                    <p className="mt-4 NormalText">
                         Backed by decades of industry experience, we have the marketing technology skills and
                         can-do attitude to take your business to the next level.
                     </p>
@@ -22,7 +22,7 @@ const BusinessGrowthSection = () => {
                     {/* Card 1 */}
                     <div className="relative bg-gray-800 rounded-lg flex overflow-hidden">
                         <div className="w-1/2 p-6 flex flex-col justify-between">
-                            <p className="text-sm font-medium">Leads Delivered</p>
+                            <p className="text-sm CardText">Leads Delivered</p>
                             <h3 className="text-2xl sm:text-3xl font-bold">$250.12</h3>
                             <span className="text-xl">
                                 <GoArrowUpRight size={24} />
@@ -40,7 +40,7 @@ const BusinessGrowthSection = () => {
                     {/* Card 2 */}
                     <div className="relative bg-gray-800 rounded-lg flex overflow-hidden">
                         <div className="w-1/2 p-6 flex flex-col justify-between">
-                            <p className="text-sm font-medium">In Revenue Generated</p>
+                            <p className="text-sm CardText">In Revenue Generated</p>
                             <h3 className="text-2xl sm:text-3xl font-bold">130M</h3>
                             <span className="text-xl">
                                 <GoArrowUpRight size={24} />
@@ -58,7 +58,7 @@ const BusinessGrowthSection = () => {
                     {/* Card 3 */}
                     <div className="relative bg-gray-800 rounded-lg flex overflow-hidden">
                         <div className="w-1/2 p-6 flex flex-col justify-between">
-                            <p className="text-sm font-medium">Searches</p>
+                            <p className="text-sm CardText">Searches</p>
                             <h3 className="text-2xl sm:text-3xl font-bold">150k</h3>
                             <span className="text-xl">
                                 <GoArrowUpRight size={24} />
@@ -76,8 +76,8 @@ const BusinessGrowthSection = () => {
 
                 {/* CTA Section */}
                 <div className="mt-16 text-center lg:w-[75%]  mx-auto">
-                    <p className="text-xs font-semibold text-gray-400 uppercase">Seize Your Potential Now!</p>
-                    <p className="mt-2 text-lg">
+                    <p className="uppercase heroContent">Seize Your Potential Now!</p>
+                    <p className="mt-2 NormalText">
                         Schedule a call today to learn how LeadSoko can help you achieve your
                         marketing & sales goals.
                     </p>
@@ -90,18 +90,18 @@ const BusinessGrowthSection = () => {
                 {/* Additional Info */}
                 <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto text-gray-400">
                     <div>
-                        <h4 className="text-white font-semibold">Leads Delivered</h4>
-                        <p className="mt-2">
+                        <h4 className="text-white NormalText">Leads Delivered</h4>
+                        <p className="mt-2 CardText">
                             Say goodbye to No leads. High-quality, targeted, multi-channel lead generation.
                         </p>
                     </div>
                     <div>
-                        <h4 className="text-white font-semibold">Searches</h4>
-                        <p className="mt-2">Targeted, data-driven lead generation for any businesses anywhere.</p>
+                        <h4 className="text-white NormalText">Searches</h4>
+                        <p className="mt-2 CardText">Targeted, data-driven lead generation for any businesses anywhere.</p>
                     </div>
                     <div>
-                        <h4 className="text-white font-semibold">In Revenue Generated</h4>
-                        <p className="mt-2">Seamlessly boost revenue without extra cost; maximize growth.</p>
+                        <h4 className="text-white NormalText">In Revenue Generated</h4>
+                        <p className="mt-2 CardText">Seamlessly boost revenue without extra cost; maximize growth.</p>
                     </div>
                 </div>
             </section>

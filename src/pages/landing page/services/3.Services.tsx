@@ -6,14 +6,14 @@ export default function Services() {
         <>
             <section className="mx-auto py-16 px-6 text-center global-container">
                 {/* Heading Section */}
-                <h3 className="text-sm font-semibold tracking-widest text-gray-500">
+                <h3 className="font-bold tracking-widest NormalText">
                     OUR SERVICES
                 </h3>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
                     Elevate Your Brand with Leadsoko To{" "}
                     <span className="text-black">#1Market Trusted Voice</span>
                 </h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+                <p className="mt-4 max-w-2xl mx-auto NormalText">
                     Leadsoko offers a world of digital marketing possibilities. From new to
                     existing enterprise, we've got you covered. Join us and unlock your
                     marketing potential today.
@@ -29,10 +29,10 @@ export default function Services() {
                             <div className="flex justify-start">
                                 <div className="w-10 h-10 border-2 border-blue-500 rotate-45"></div>
                             </div>
-                            <h3 className="mt-4 text-lg font-semibold text-gray-900">
+                            <h3 className="mt-4 text-xl font-semibold ">
                                 “{service.title}”
                             </h3>
-                            <p className="mt-2 text-gray-600">{service.description}</p>
+                            <p className="mt-2 text-gray-700 NormalText">{service.description}</p>
                             <a
                                 href={service.linkHref}
                                 className="mt-4 inline-block text-blue-600 font-medium hover:underline"
