@@ -33,7 +33,7 @@ export default function CoachingProgram() {
     return (
 
         <>
-            <section className="bg-gray-900 text-white p-8 rounded-lg mx-auto shadow-lg global-container ">
+            <section className="bg-[#000000] text-white p-8 rounded-lg mx-auto shadow-lg global-container ">
                 {/* Main Section */}
                 <div className="flex flex-col md:flex-row items-center justify-between lg:px-8">
                     {/* Left Side - Text & CTA */}

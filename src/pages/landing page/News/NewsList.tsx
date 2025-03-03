@@ -17,7 +17,7 @@ const NewsList = () => {
 
     return (
         <>
-            <section className="py-12 px-6 lg:px-20 bg-white text-black min-h-screen">
+            <section className="py-12 px-6 lg:px-20 bg-[#FFFFFF] text-black min-h-screen">
                 <div className="md:max-w-[80%] mx-auto">
 
                     {/* News Grid */}

@@ -1,10 +1,11 @@
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import icon from "../../assets/images/icon.png";
 import { MdStarRate } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-10  w-full mt-3 global-container mx-auto rounded-t-2xl lg:rounded-t-3xl">
+        <footer className="bg-[#000000] text-white py-10  w-full mt-3 global-container mx-auto rounded-t-2xl lg:rounded-t-3xl">
             <div className="container mx-auto relative lg:px-12 px-4">
                 {/* Footer Links (Left-Aligned, Tighter Spacing) */}
                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
@@ -65,9 +66,11 @@ const Footer = () => {
                 </div>
 
                 {/* Adviser Button - Top Right Overlap */}
-                <div className="absolute top-0 right-0 mt-[-20px] mr-8">
-                    <button className="w-28 h-28 bg-blue-600 text-white rounded-full flex flex-col items-center justify-center shadow-lg">
-                        📞 <span className="text-sm text-center">Talk to an adviser?</span>
+                <div className="absolute top-0 right-0 mt-[20px] mr-8">
+                    <button className="w-42 h-42 bg-[#104BC5] text-white rounded-full flex flex-col items-center justify-center shadow-lg">
+
+                        <FaPhone className="text-2xl mb-4" size={28} />
+                        <span className="text-base text-center">Talk to an adviser?</span>
                     </button>
                 </div>
 

@@ -6,7 +6,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const RevenueSection = () => {
     return (
         <>
-            <section className="bg-gray-100 py-12 px-6 rounded-xl global-container mx-auto mt-12">
+            <section className="bg-[#EFF4F8] py-10 md:py-20 px-6 rounded-xl global-container mx-auto ">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl font-bold text-neutral">How We Drive Revenue</h2>
                     <p className=" mt-4 NormalText">

@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <>
             <Navbar />
-            <section className="bg-white lg:py-12 py-10 px-4 lg:px-6 md:px-12 mt-22 lg:pb-22">
+            <section className="bg-[#FFFFFF] lg:py-12 py-10 px-4 lg:px-6 md:px-12 mt-22 lg:pb-22">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between global-container">
                     {/* Left Side */}
                     <div className="md:w-1/2 space-y-6">

@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { GoArrowUpRight } from "react-icons/go";
 import SucessPhoto from "../../assets/images/successPhoto.png";
 import Navbar from "../../components/navbar/Navbar";
 import StoriesofSuccess from "./StoriesofSuccess";
+import CallForAction from "./CallForAction";
 
 const images = [
     SucessPhoto,
@@ -31,7 +31,7 @@ const SuccessStories = () => {
         <>
 
             <Navbar />
-            <section className="bg-gray-100 py-12 px-2 md:px-20 text-center pt-28 lg:pt-32">
+            <section className="bg-[#F6F9FC] py-12 px-2 md:px-20 text-center pt-28 lg:pt-32">
                 <h2 className="text-3xl lg:text-5xl font-medium lg:mb-6">Success Stories</h2>
                 <p className="mt-4 mb-6  NormalText">
                     We've helped hundreds of companies around the world achieve remarkable digital sales and marketing results. <br />
@@ -72,20 +72,10 @@ const SuccessStories = () => {
                     </button>
                 </div>
 
-                {/* Call to Action */}
-                <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
-                    <div className="border-t w-24 hidden md:block"></div>
-                    <p className="text-gray-700 NormalText">Ready to talk about how you can achieve similar results?</p>
-                    <a
-                        href="#"
-                        className="btn btn-primary rounded-lg shadow-md button"
-                    >
-                        Start with a free coaching session <span>
-                            <GoArrowUpRight size={20} />
-                        </span>
-                    </a>
-                </div>
+
             </section>
+            {/* Call to Action */}
+            <CallForAction />
             <StoriesofSuccess />
         </>
     );

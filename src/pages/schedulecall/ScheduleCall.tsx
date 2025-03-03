@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
-
+import { ArrowUpRight } from "lucide-react";
 
 const ScheduleCall = () => {
     const [formData, setFormData] = useState({
@@ -39,14 +39,16 @@ const ScheduleCall = () => {
                             Explore our coaching services and industry expertise. Need something else?
                             See below for more ways to get in touch.
                         </p>
-                        <button className="btn border  bg-white text-blue-700 font-bold px-6 py-3 rounded-lg shadow-sm hover:bg-gray-200 transition-all">
-                            WhatsApp Us <span className="text-xl">↗</span>
+                        <button className="btn border border-[#3579F6] bg-white text-[#104BC5] font-bold px-6 py-3 rounded-lg shadow-sm hover:bg-gray-200 transition-all">
+                            WhatsApp Us <span className="text-xl">
+                                <ArrowUpRight className="w-5 h-5" />
+                            </span>
                         </button>
                     </div>
                 </div>
 
                 {/* Contact Form */}
-                <div className="bg-white rounded-lg p-6 md:p-10 w-full mt-12">
+                <div className="bg-[#FFFFFF] rounded-lg p-6 md:p-10 w-full mt-12">
                     <div className="flex flex-col lg:flex-row items-start justify-normal gap-6 lg:gap-12 lg:ml-12">
                         <h1 className="font-semibold text-gray-500 uppercase  NormalText">
                             HOW CAN WE HELP?

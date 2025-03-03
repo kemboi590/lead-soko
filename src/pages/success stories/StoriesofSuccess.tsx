@@ -31,7 +31,7 @@ const StoriesofSuccess = () => {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row gap-8 px-6 md:px-20 py-10 global-container">
+            <div className="flex flex-col md:flex-row gap-8 px-6 md:px-20 py-10 global-container bg-[#FFFFFF]">
                 {/* Filters */}
                 <aside className="md:w-1/4 w-full">
                     {Object.entries(filters).map(([category, items]) => (

@@ -41,7 +41,7 @@ export default function Stories() {
 
     return (
         <>
-            <section className="bg-black text-white py-12 px-6 rounded-xl relative global-container shadow-lg">
+            <section className="bg-[#000000] text-white py-12 px-6 rounded-xl relative global-container shadow-lg">
                 <div className="flex flex-col md:flex-row items-center justify-evenly gap-8">
                     {/* Left Side - Image */}
                     <div className="relative">
@@ -49,7 +49,7 @@ export default function Stories() {
                             src={testimonials[currentIndex].image}
                             alt={testimonials[currentIndex].name}
                             className="w-52 h-64 object-cover rounded-lg lg:-mt-58 "
-                        />                        
+                        />
                     </div>
 
                     {/* Right Side - Quote & Details */}
