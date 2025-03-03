@@ -1,4 +1,4 @@
-import bookpen from "../../assets/images/training/bookpen.png";
+import groupPhoto from "../../assets/images/training/groupPhoto.jpg";
 
 const steps = [
     {
@@ -7,7 +7,7 @@ const steps = [
             "You’ll speak directly with one of our certified, They Ask, You Answer coaches. You’ll be able to assess the coach’s fit to work with your team, and similarly, we’ll be assessing your fit for working with LEADSOKO to implement They Ask, You Answer.",
         buttonText: "Book a Call With an LEADSOKO Coach",
         highlight: true,
-        image: bookpen
+        image: groupPhoto,
     },
     {
         title: "Kickoff and Planning",
@@ -25,7 +25,7 @@ const steps = [
 
 export const ProcessSteps = () => {
     return (
-        <section className="py-12 px-6">
+        <section className="py-12 px-6 md:px-28 ">
             <h2 className="text-2xl md:text-3xl font-bold text-blue-600 mb-8">
                 What Does the Process Look Like?
             </h2>
@@ -33,18 +33,18 @@ export const ProcessSteps = () => {
                 {steps.map((step, index) => (
                     <div
                         key={index}
-                        className={`flex items-start gap-4 ${step.highlight
-                                ? "border-2 border-blue-500 p-6 rounded-lg relative bg-white shadow-lg"
-                                : ""
+                        className={`flex flex-col lg:flex-row items-start gap-4 ${step.highlight
+                            ? "border-2 border-blue-500 p-6 rounded-lg relative bg-white shadow-lg"
+                            : ""
                             }`}
                     >
                         {/* Blue Bullet */}
                         <div className="w-4 h-4 bg-blue-600 rounded-full mt-2" />
 
                         {/* Text Content */}
-                        <div className="flex-1">
-                            <h3 className="text-lg font-bold">{step.title}</h3>
-                            <p className="text-gray-600 mt-2">{step.description}</p>
+                        <div className="flex-1 lg:w-3/4">
+                            <h3 className="text-lg font-bold heroContent">{step.title}</h3>
+                            <p className="text-gray-600 mt-2 NormalText">{step.description}</p>
 
                             {/* Call to Action Button */}
                             {step.buttonText && (
@@ -56,11 +56,11 @@ export const ProcessSteps = () => {
 
                         {/* Image for Highlighted Step */}
                         {step.highlight && step.image && (
-                            <div className="absolute top-6 right-6">
+                            <div className="lg:w-1/4 lg:ml-auto">
                                 <img
                                     src={step.image}
                                     alt="Coaches"
-                                    className="w-32 h-auto rounded-lg shadow-lg"
+                                    className="rounded-lg shadow-lg"
                                 />
                             </div>
                         )}
