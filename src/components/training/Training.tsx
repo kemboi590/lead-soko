@@ -1,8 +1,15 @@
+import Navbar from "../navbar/Navbar"
+import { Topics } from "./Topics"
 
 
 const Training = () => {
   return (
-    <div>Training</div>
+    <>
+      <section>
+        <Navbar />
+        <Topics />
+      </section>
+    </>
   )
 }
 
