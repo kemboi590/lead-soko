@@ -31,7 +31,7 @@ const SuccessStories = () => {
         <>
 
             <Navbar />
-            <section className="bg-gray-100 py-12 px-6 md:px-20 text-center pt-28 lg:pt-32">
+            <section className="bg-gray-100 py-12 px-2 md:px-20 text-center pt-28 lg:pt-32">
                 <h2 className="text-3xl lg:text-5xl font-medium lg:mb-6">Success Stories</h2>
                 <p className="mt-4 mb-6  NormalText">
                     We've helped hundreds of companies around the world achieve remarkable digital sales and marketing results. <br />
@@ -51,12 +51,12 @@ const SuccessStories = () => {
                     {/* Image Scroll Wrapper */}
                     <div
                         ref={scrollRef}
-                        className="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth px-10"
+                        className="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth md:px-10"
                     >
                         {images.map((img, index) => (
                             <div
                                 key={index}
-                                className="min-w-[400px] h-[250px] rounded-lg overflow-hidden transition-all duration-300 transform hover:scale-105"
+                                className="min-w-[500px] h-[250px] rounded-lg overflow-hidden transition-all duration-300 transform hover:scale-105 object-fill"
                             >
                                 <img src={img} alt={`Story ${index + 1}`} className="w-full h-full object-cover" />
                             </div>
