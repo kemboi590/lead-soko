@@ -14,7 +14,7 @@
 
 
 .heroContent { 
-  @apply py-3 text-xl lg:text-2xl; 
+  @apply py-2 text-xl lg:text-2xl; 
 
 }
 

@@ -48,7 +48,7 @@ export default function Stories() {
                         <img
                             src={testimonials[currentIndex].image}
                             alt={testimonials[currentIndex].name}
-                            className="w-52 h-60 object-cover rounded-lg lg:-mt-45 "
+                            className="w-52 h-64 object-cover rounded-lg lg:-mt-58 "
                         />                        
                     </div>
 

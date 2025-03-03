@@ -9,7 +9,7 @@ const MoreNews = () => {
             <section className="bg-black text-white py-16 px-6 lg:px-20 mt-24 global-container mx-auto">
                 <div className="mx-auto md:max-w-[80%] ">
                     <h1 className="text-4xl md:text-5xl font-bold">Latest News & Insights</h1>
-                    <p className="text-gray-400 mt-4">
+                    <p className=" mt-4 NormalText">
                         Here’s how our marketing advisors can bring your idea to life.
                     </p>
                     <div className="mt-6">

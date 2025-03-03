@@ -26,7 +26,7 @@ const NewsList = () => {
                             <div key={news.id} className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden transition-transform duration-300 hover:scale-105 p-2">
                                 {/* Image with overlay label */}
                                 <div className="relative">
-                                    <h3 className="text-lg font-semibold mt-2">{news.title}</h3>
+                                    <h3 className=" font-semibold heroContent">{news.title}</h3>
                                     <p className="text-gray-500 text-xs flex items-center pb-4">
                                         <FaRegClock className="mr-1" /> {news.author} • {news.date}
                                     </p>
@@ -42,7 +42,7 @@ const NewsList = () => {
 
                                 {/* Content */}
                                 <div className="p-2">
-                                    <p className="text-gray-600 mt-2 text-sm">{news.description}</p>
+                                    <p className="text-sm Descriptions">{news.description}</p>
                                     {/* Tags */}
                                     <div className="mt-3 flex flex-wrap gap-2">
                                         {news.tags.map((tag, index) => (

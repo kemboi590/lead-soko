@@ -35,7 +35,7 @@ const NewsSection = () => {
                                 className="w-full h-[250px] object-cover rounded-lg"
                             />
                         </div>
-                        <p className="text-blue-500 text-xs font-bold uppercase">
+                        <p className="text-blue-500 text-lg font-bold uppercase">
                             Marketing
                         </p>
                         <h3 className="text-xl font-semibold heroContent">
@@ -58,10 +58,10 @@ const NewsSection = () => {
                                 className="w-24 h-24 rounded-lg object-cover"
                             />
                             <div className="flex-1">
-                                <p className="text-blue-500 text-xs font-bold uppercase">
+                                <p className="text-blue-500 text-lg font-bold uppercase">
                                     Marketing
                                 </p>
-                                <h3 className="text-sm font-semibold leading-normal">
+                                <h3 className="font-semibold CardText">
                                     A Guide to Embracing Meaningful Change in Banking
                                 </h3>
                             </div>
@@ -75,10 +75,10 @@ const NewsSection = () => {
                                 className="w-24 h-24 rounded-lg object-cover"
                             />
                             <div className="flex-1">
-                                <p className="text-blue-500 text-xs font-bold uppercase">
+                                <p className="text-blue-500 text-lg font-bold uppercase">
                                     Branding
                                 </p>
-                                <h3 className="text-sm font-semibold leading-normal">
+                                <h3 className="font-semibold CardText">
                                     PayPal launches PYUSD stablecoin for payments and transfers
                                 </h3>
                             </div>

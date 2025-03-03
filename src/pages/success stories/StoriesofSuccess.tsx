@@ -2,6 +2,7 @@ import { useState } from "react";
 import { filters, stories } from "./StoriesData";
 import Footer from "../../components/footer/Footer";
 
+
 const StoriesofSuccess = () => {
     const [selectedFilters, setSelectedFilters] = useState<{ [key: string]: string[] }>({
         companyType: [],
@@ -56,10 +57,10 @@ const StoriesofSuccess = () => {
                     {filteredStories.length > 0 ? (
                         filteredStories.map((story) => (
                             <div key={story.id} className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-                                <img src={story.image} alt={story.title} className="w-full h-48 object-cover" />
+                                <img src={story.image} alt={story.title} className="w-full h-48 object-cover " />
                                 <div className="p-4">
                                     <h4 className="text-sm font-semibold text-gray-600">{story.company}</h4>
-                                    <h3 className="text-lg font-bold">{story.title}</h3>
+                                    <h3 className=" font-semibold NormalText">{story.title}</h3>
                                     <div className="flex flex-wrap gap-2 mt-3">
                                         {story.tags.map((tag) => (
                                             <span key={tag} className="badge badge-outline">{tag}</span>

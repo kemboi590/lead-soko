@@ -29,16 +29,17 @@ const SuccessStories = () => {
 
     return (
         <>
+
             <Navbar />
             <section className="bg-gray-100 py-12 px-6 md:px-20 text-center pt-28 lg:pt-32">
                 <h2 className="text-3xl lg:text-5xl font-medium lg:mb-6">Success Stories</h2>
-                <p className="text-gray-600 mt-3 mb-6 leading-10 text-xl">
+                <p className="mt-4 mb-6  NormalText">
                     We've helped hundreds of companies around the world achieve remarkable digital sales and marketing results. <br />
                     Below, we invite you to learn about their stories of incredible business growth and success, in their words.
                 </p>
 
                 {/* Scrollable Section */}
-                <div className="relative max-w-5xl mx-auto">
+                <div className="relative max-w-[70%] mx-auto">
                     {/* Left Button */}
                     <button
                         onClick={() => scroll("left")}
@@ -73,8 +74,8 @@ const SuccessStories = () => {
 
                 {/* Call to Action */}
                 <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
-                    <div className="border-t border-gray-400 w-20 hidden md:block"></div>
-                    <p className="text-gray-700">Ready to talk about how you can achieve similar results?</p>
+                    <div className="border-t w-24 hidden md:block"></div>
+                    <p className="text-gray-700 NormalText">Ready to talk about how you can achieve similar results?</p>
                     <a
                         href="#"
                         className="btn btn-primary rounded-lg shadow-md button"

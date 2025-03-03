@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 
+
 const ScheduleCall = () => {
     const [formData, setFormData] = useState({
         fullName: "",
@@ -34,7 +35,7 @@ const ScheduleCall = () => {
                     <h1 className="text-4xl font-bold text-gray-900 lg:ml-12">Thanks for your interest.</h1>
                     <h2 className="text-4xl font-bold text-gray-900 mt-1 lg:ml-12">How can we help?</h2>
                     <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mt-4 lg:ml-auto lg:mr-28">
-                        <p className="mt-4 text-lg text-gray-600 leading-relaxed text-center lg:text-left">
+                        <p className="mt-4 lg:text-left NormalText">
                             Explore our coaching services and industry expertise. Need something else?
                             See below for more ways to get in touch.
                         </p>
@@ -47,14 +48,14 @@ const ScheduleCall = () => {
                 {/* Contact Form */}
                 <div className="bg-white rounded-lg p-6 md:p-10 w-full mt-12">
                     <div className="flex flex-col lg:flex-row items-start justify-normal gap-6 lg:gap-12 lg:ml-12">
-                        <h1 className="text-sm font-semibold text-gray-500 uppercase tracking-wide">
+                        <h1 className="font-semibold text-gray-500 uppercase  NormalText">
                             HOW CAN WE HELP?
                         </h1>
                         <div>
-                            <h2 className="text-2xl font-semibold text-gray-900">
+                            <h2 className="font-semibold text-gray-900 heroContent">
                                 Have a request for proposal or just looking to connect?
                             </h2>
-                            <p className="text-gray-600 text-lg mt-2">
+                            <p className="text-gray-600 mt-2 NormalText">
                                 Please fill out the form below and we'll get in touch with the best contact.
                             </p>
 
