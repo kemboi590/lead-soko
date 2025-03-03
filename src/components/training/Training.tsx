@@ -1,5 +1,9 @@
 import Navbar from "../navbar/Navbar"
+import { Partners } from "./Partners"
+import { ProcessSteps } from "./ProcessSteps"
+import { Testimonial } from "./Testimonial"
 import { Topics } from "./Topics"
+
 
 
 const Training = () => {
@@ -8,6 +12,9 @@ const Training = () => {
       <section>
         <Navbar />
         <Topics />
+        <Testimonial />
+        <Partners />
+        <ProcessSteps />
       </section>
     </>
   )
