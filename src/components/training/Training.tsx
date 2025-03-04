@@ -1,8 +1,10 @@
 import Navbar from "../navbar/Navbar"
+import { MasterySection } from "./MasterySection"
 import { Partners } from "./Partners"
 import PricingSection from "./PricingSection"
 import { ProcessSteps } from "./ProcessSteps"
 import { ProgramPage } from "./ProgramPage"
+import { SuccessStory } from "./SuccessStory"
 import { Testimonial } from "./Testimonial"
 import { Testimonial2 } from "./Testimonial2"
 import { Topics } from "./Topics"
@@ -24,6 +26,8 @@ const Training = () => {
         <PricingSection />
         <Testimonial2 />
         <Partners />
+        <MasterySection />
+        <SuccessStory />
       </section>
     </>
   )
