@@ -1,4 +1,6 @@
 import Navbar from "../navbar/Navbar"
+import { MultiStepForm } from "./BusinessForm"
+import { GetStartedSection } from "./GetStartedSection"
 import { MasterySection } from "./MasterySection"
 import { Partners } from "./Partners"
 import PricingSection from "./PricingSection"
@@ -28,6 +30,10 @@ const Training = () => {
         <Partners />
         <MasterySection />
         <SuccessStory />
+        <Partners />
+        <GetStartedSection />
+        <MultiStepForm />
+
       </section>
     </>
   )
