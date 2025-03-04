@@ -55,7 +55,7 @@ export const CourseSection = () => {
     };
 
     return (
-        <section className="max-w-[80%] mx-auto mt-8 p-4">
+        <section className="md:max-w-[80%] mx-auto mt-8 p-4">
             {/* Title */}
             <h2 className="text-blue-600 font-semibold">Courses & Additional Insights</h2>
             <h1 className="text-3xl font-bold mt-1">Free Resources to Get You Started</h1>

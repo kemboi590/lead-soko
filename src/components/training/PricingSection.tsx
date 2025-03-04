@@ -3,7 +3,7 @@ import pricingImage from "../../assets/images/training/pricing.webp"
 
 const PricingSection = () => {
     return (
-        <section className="max-w-[70%]  mx-auto px-4 py-12">
+        <section className="md:max-w-[70%]  mx-auto px-4 py-12">
             {/* Pricing Heading */}
             <div className="text-blue-600 font-semibold text-sm mb-2">Pricing</div>
             <h2 className="text-3xl font-bold text-gray-900 leading-tight">

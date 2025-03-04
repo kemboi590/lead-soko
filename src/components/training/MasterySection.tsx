@@ -2,7 +2,7 @@ import testimonial from "../../assets/images/training/testimonial.jpg"
 
 export const MasterySection = () => {
     return (
-        <section className="w-[90%] mx-auto px-6 md:px-24 py-12">
+        <section className="md:w-[90%] mx-auto px-6 md:px-24 py-12">
             {/* Title */}
             <h2 className="text-2xl md:text-3xl font-bold text-blue-600">
                 Is They Ask, You Answer Mastery Right for You?

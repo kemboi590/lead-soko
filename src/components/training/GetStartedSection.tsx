@@ -3,7 +3,7 @@ import testimonial from "../../assets/images/training/testimonial.jpg"
 
 export const GetStartedSection = () => {
     return (
-        <section className="max-w-[90%] mx-auto px-6 py-12">
+        <section className="md:max-w-[90%] mx-auto px-6 py-12">
             {/* Section Title */}
             <h3 className="text-blue-600 font-semibold text-sm">
                 | How To Get Started

@@ -48,7 +48,7 @@ export const MultiStepForm = () => {
     };
 
     return (
-        <section className="max-w-[80%] mx-auto bg-white p-8 md:px-22 rounded-lg shadow-md mt-8">
+        <section className="md:max-w-[80%] mx-auto bg-white p-8 md:px-22 rounded-lg shadow-md mt-8">
             {/* Step Progress */}
             <div className="flex justify-between items-center mb-6 border-b pb-4">
                 {["Basic Info", "Reserve Meeting", "Confirmation"].map((title, index) => (

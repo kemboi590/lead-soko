@@ -44,7 +44,7 @@ export const FAQSection = () => {
     };
 
     return (
-        <section className="max-w-[80%] mx-auto my-8 p-4">
+        <section className="md:max-w-[80%] mx-auto my-8 p-4">
             {/* FAQ Title */}
             <h2 className="text-blue-600 font-semibold">Frequently Asked Questions</h2>
             <h1 className="text-3xl font-bold mt-1">You Ask, We Answer</h1>
