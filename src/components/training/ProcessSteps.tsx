@@ -39,7 +39,7 @@ export const ProcessSteps = () => {
                             }`}
                     >
                         {/* Blue Bullet */}
-                        <div className="w-4 h-4 bg-blue-600 rounded-full mt-2" />
+                        <div className="w-4 h-4 bg-blue-600 rounded-full mt-4 hidden md:block" />
 
                         {/* Text Content */}
                         <div className="flex-1 lg:w-3/4">

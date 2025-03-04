@@ -3,6 +3,7 @@ import { Partners } from "./Partners"
 import { ProcessSteps } from "./ProcessSteps"
 import { Testimonial } from "./Testimonial"
 import { Topics } from "./Topics"
+import { TrainingFormats } from "./TrainingFormats"
 
 
 
@@ -15,6 +16,7 @@ const Training = () => {
         <Testimonial />
         <Partners />
         <ProcessSteps />
+        <TrainingFormats />
       </section>
     </>
   )
