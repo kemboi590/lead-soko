@@ -1,5 +1,8 @@
+import Footer from "../footer/Footer"
 import Navbar from "../navbar/Navbar"
 import { MultiStepForm } from "./BusinessForm"
+import { CourseSection } from "./CourseSection"
+import { FAQSection } from "./FAQSection"
 import { GetStartedSection } from "./GetStartedSection"
 import { MasterySection } from "./MasterySection"
 import { Partners } from "./Partners"
@@ -33,6 +36,9 @@ const Training = () => {
         <Partners />
         <GetStartedSection />
         <MultiStepForm />
+        <CourseSection />
+        <FAQSection />
+        <Footer/>
 
       </section>
     </>
